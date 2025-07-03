@@ -8,5 +8,6 @@ This Repository is to track my learning of DSA in python and its different solut
 - **Permutations of List**
 - **Combinations generator** 
 
-## Work-in-progress
+## In-Complete
 - **Combination Sum II**
+- **Word search**
