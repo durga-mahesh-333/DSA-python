@@ -25,3 +25,9 @@ This Repository is to track my learning of DSA in python and its different solut
 - *set*
 - *insert*
 - *remove*
+
+    #### Linked List Practice
+- *reverse*
+- *find middle node*
+- *kth node from end*
+- *remove duplicates*
