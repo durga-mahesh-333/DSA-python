@@ -14,7 +14,7 @@ class LinkedList:
     def print_list(self):
         current_node=self.head
         print("Linked List values: ")
-        for _ in range(self.length):
+        while current_node:
             print(current_node.value , end='\t')
             current_node=current_node.next
         print()
@@ -160,36 +160,3 @@ class LinkedList:
             curr_index += 1
             prev_node = curr_node
             curr_node = curr_node.next
-
-ll = LinkedList(5)
-ll.append(6)
-ll.print_list()
-print(f'Length of the linked List: {ll.length}')
-ll.prepend(0)
-ll.print_list()
-print(f'Length of the linked List: {ll.length}')
-ll.get(1)
-ll.get(0)
-ll.get(6)
-ll.get(2)
-ll.set(0,100)
-ll.print_list()
-ll.pop_first()
-ll.print_list()
-
-ll.insert(1000 ,1)
-ll.print_list()
-print(f"Length of the list :{ll.length}")
-
-
-ll.remove(1)
-ll.print_list()
-
-
-ll.remove(1)
-ll.print_list()
-print(f"Length of the list :{ll.length}")
-
-ll.remove(0)
-ll.print_list()
-print(f"Length of the list :{ll.length}")
