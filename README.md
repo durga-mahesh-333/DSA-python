@@ -31,3 +31,8 @@ This Repository is to track my learning of DSA in python and its different solut
 - *find middle node*
 - *kth node from end*
 - *remove duplicates*
+- *partition list*
+- *binary to decimal*
+- *reverse in between*
+- *swap nodes in pairs*
+- *swapping nodes*
