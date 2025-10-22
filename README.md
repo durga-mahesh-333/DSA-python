@@ -37,3 +37,4 @@ This Repository is to track my learning of DSA in python and its different solut
 - *swap nodes in pairs*
 - *swapping nodes*
 - *reverse nodes in k-group*
+- *odd even linked list*
