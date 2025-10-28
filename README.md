@@ -41,7 +41,11 @@ This Repository is to track my learning of DSA in python and its different solut
 - *LRU cache* (attempted this using Linked list . But for to meet objectives it must be developed using HashMap and Doubly linked list)
 - *is Palindrome*
 - *reorder List*
+- *merge two sorted lists*
+
+
 Next for linked list :
+
 Intersection of Two Linked Lists (#160)	https://leetcode.com/problems/intersection-of-two-linked-lists/
  
 Linked List Cycle (#141)	https://leetcode.com/problems/linked-list-cycle/
@@ -49,7 +53,5 @@ Linked List Cycle (#141)	https://leetcode.com/problems/linked-list-cycle/
 Linked List Cycle II (#142)	https://leetcode.com/problems/linked-list-cycle-ii/
  
 Rotate List (#61)	https://leetcode.com/problems/rotate-list/
- 
-Merge Two Sorted Lists (#21)	https://leetcode.com/problems/merge-two-sorted-lists/
 
  
