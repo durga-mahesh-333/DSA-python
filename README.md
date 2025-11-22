@@ -42,16 +42,7 @@ This Repository is to track my learning of DSA in python and its different solut
 - *is Palindrome*
 - *reorder List*
 - *merge two sorted lists*
-
-
-Next for linked list :
-
-Intersection of Two Linked Lists (#160)	https://leetcode.com/problems/intersection-of-two-linked-lists/
- 
-Linked List Cycle (#141)	https://leetcode.com/problems/linked-list-cycle/
- 
-Linked List Cycle II (#142)	https://leetcode.com/problems/linked-list-cycle-ii/
- 
-Rotate List (#61)	https://leetcode.com/problems/rotate-list/
-
- 
+- *rotate lists*
+- *intersection of two linked lists*
+- *linked list cycle*
+- *linked list cycle II*
