@@ -1,16 +1,22 @@
 def myPow( x: float, n: int) -> float:
        
-        def helper(given_val:float , pow_val: float , exp:int):
-            exp_red=False
-            if exp==1: return pow_val
+        def helper(given_val:float , pow_val: float , exp:int, extra_exp:int , helper_exp:int , recur:int):
+            if exp==1: return pow_val,extra_exp
             if exp%2==1:
-                exp_red=True
+                if recur==0:extra_exp=helper_exp
+                extra_exp*=helper_exp
                 exp-=1
             
             exp//=2
             pow_val*=pow_val
-            pow_val=pow_val*given_val if exp_red else pow_val/given_val
-            return helper(given_val , pow_val , exp)
+            
+            return helper(given_val , pow_val , exp,extra_exp , helper_exp*2, recur+1)
 
-        return helper(x,x,n)
-print(myPow(2.0 , 10))
+        return helper(x,x,n,0,1,0)
+
+        # def helper_ext_pow(given_val,pow_val,ext_pow):
+        #     if ext_pow==0:
+        #         return pow_val
+        #     return helper_ext_pow(given_val , pow_val*given_val , ext_pow-1) 
+        # return helper_ext_pow(x,pow_val,ext_pow)
+print(myPow(2.0 , 6))
