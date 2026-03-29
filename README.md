@@ -1,6 +1,13 @@
 # DSA-python
 This Repository is to track my learning of DSA in python and its different solution for the problems 
 
+## <ins> Recursion Problems </ins>
+### Problems completed
+- *Fibonacci Number (leet code 509)*
+- *Reverse String (leet code 344)*
+- *Power of Two (leet code 231)*
+- *Sum of Digits (leet code 258 – Add Digits)*
+
 ## <ins> BackTracking Problems </ins>
 ### Problems completed
 - *Combination Sum* 
@@ -48,59 +55,9 @@ This Repository is to track my learning of DSA in python and its different solut
 - *linked list cycle II*
 
 
-🟢 EASY – “Get comfy with recursion”
 
-Focus: base case, reducing problem size, stack thinking
 
-1️⃣ Fibonacci Number (509)
 
-Why it’s good
-s
-Teaches base case + recurrence relation
-
-Understands why recursion is slow without memo
-
-Skill trained
-
-Basic recursive definition
-
-Stack growth visualization
-
-⚠️ Don’t stop at naive recursion—try memo later.
-
-2️⃣ Reverse String (344)
-
-Why it’s good
-
-Simple recursion with pointers
-
-Clear base condition
-
-Skill trained
-
-Pre-order vs post-order recursion thinking
-
-3️⃣ Power of Two (231)
-
-Why it’s good
-
-Simple mathematical recursion
-
-Helps avoid overthinking
-
-Skill trained
-
-Recursive reduction using math
-
-4️⃣ Sum of Digits (similar to 258 – Add Digits)
-
-Why it’s good
-
-Break number into smaller parts
-
-Skill trained
-
-Divide-and-reduce recursion
 🟡 MEDIUM – “Your brain starts bending”
 
 Focus
