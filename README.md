@@ -101,161 +101,211 @@ Break number into smaller parts
 Skill trained
 
 Divide-and-reduce recursion
+🟡 MEDIUM – “Your brain starts bending”
 
-5️⃣ Merge Two Sorted Lists (21)
+Focus
 
-Why it’s good
+Multiple recursive calls
 
-First “real” recursion problem
+Divide problem into smaller parts
 
-Very elegant recursive solution
+Understanding recursion tree
 
-Skill trained
-
-Recursive calls with structural data (linked list)
-
-🔥 This one is IMPORTANT.
-
-🟡 MEDIUM – “Now your brain will sweat”
-
-Focus: recursion on trees, divide & conquer, multiple recursive calls
-
-6️⃣ Maximum Depth of Binary Tree (104)
+1️⃣ Pow(x, n) — (50)
 
 Why it’s good
 
-Tree recursion 101
+Classic divide & conquer recursion problem.
 
-Every serious recursion learner must do this
+Naive recursion → O(n)
+Optimized recursion → O(log n)
 
 Skill trained
 
-Recursive traversal
+Splitting recursion
 
-Height calculation logic
+Reducing exponent by half
 
-7️⃣ Invert Binary Tree (226)
+Mathematical recursion thinking
+
+⚠️ Teaches fast exponentiation.
+
+2️⃣ K-th Symbol in Grammar — (779)
 
 Why it’s good
 
-Forces you to trust recursion
+One of the most elegant recursion problems on LeetCode.
+
+The answer depends on parent row.
 
 Skill trained
 
-Recursive swapping
+Recursive pattern recognition
 
-Post-order recursion
+Parent → child reasoning
 
-8️⃣ Validate Binary Search Tree (98)
+🔥 Many top coders love this problem.
+
+3️⃣ Different Ways to Add Parentheses — (241)
 
 Why it’s good
 
-Recursion + constraints
+Break expression recursively.
 
-Easy to mess up if logic isn’t clear
+Example
+
+2*3-4*5
+
+Can be split at different operators.
 
 Skill trained
 
-Passing information through recursive calls
+Divide expression recursively
 
-9️⃣ Pow(x, n) (50)
+Combine results from recursive calls
+
+⚠️ First time you'll see multiple results returned from recursion.
+
+4️⃣ Generate Parentheses — (22)
 
 Why it’s good
 
-Divide & conquer recursion
+A famous recursion problem.
 
-Time complexity thinking
-
-Skill trained
-
-Optimized recursion
-
-Handling negative cases cleanly
-
-🔟 Linked List Cycle II (142)
-
-Why it’s here
-
-Even though iterative is popular, recursive thinking helps
-
-Great mental exercise
+Even though it's sometimes categorized as backtracking, the core idea is recursive generation.
 
 Skill trained
 
-Recursive pointer reasoning
+Recursive building
 
-🔴 HARD – “This is where recursion becomes power”
+Constraint-based recursion
 
-Focus: deep recursion, overlapping subproblems, thinking in call trees
+🔥 This is a must-do.
 
-1️⃣1️⃣ Sort List (148)
+5️⃣ Beautiful Arrangement — (526)
 
 Why it’s good
 
-Merge Sort via recursion
+Numbers placed recursively based on conditions.
 
-No backtracking, pure divide & conquer
+Example:
+
+n = 3
+Valid permutations count = 3
 
 Skill trained
 
-Splitting problem
+Recursive permutation building
 
-Combining recursive results
+Constraint checking
 
-🔥 Massive confidence booster.
+⚠️ Makes recursion state-aware.
 
-1️⃣2️⃣ Flatten Binary Tree to Linked List (114)
+🔴 HARD – “Now recursion becomes a weapon”
+
+Focus:
+
+Deep recursion
+
+Recursive tree thinking
+
+Overlapping subproblems
+
+6️⃣ Decode String — (394)
+
+Example
+
+3[a2[c]]
+
+Output
+
+accaccacc
 
 Why it’s good
 
-Requires careful recursive restructuring
+Nested recursion parsing.
 
 Skill trained
 
-Recursive return values
+Recursive string decoding
 
-Structural transformations
+Handling nested expressions
 
-1️⃣3️⃣ Binary Tree Maximum Path Sum (124)
+7️⃣ Expression Add Operators — (282)
+
+Example
+
+num = "123"
+target = 6
+
+Possible answers
+
+1+2+3
+1*2*3
 
 Why it’s good
 
-Classic hard recursion
-
-Forces you to think about:
-
-What recursion returns
-
-What global result you maintain
+Pure recursive exploration of expressions.
 
 Skill trained
 
-Dual recursion logic (local vs global)
+Recursive expression generation
 
-💀 This separates “I know recursion” from “I understand recursion”.
+Handling operator precedence
 
-1️⃣4️⃣ Decode String (394)
+💀 This one hurts the brain.
+
+8️⃣ Integer Replacement — (397)
+
+Example
+
+n = 8
+8 → 4 → 2 → 1
 
 Why it’s good
 
-Nested recursion
+Recursive decision making.
 
-No backtracking, but still brain-twisting
+If odd:
+
+n+1 or n-1
+
+Choose optimal path.
 
 Skill trained
 
-Recursive parsing
+Recursive decision trees
 
-Stack-frame reasoning
+Optimal recursion
 
-1️⃣5️⃣ K-th Symbol in Grammar (779)
+9️⃣ Special Binary String — (761)
+
+Even though the name says binary, this is actually recursive string transformation.
 
 Why it’s good
 
-Pure recursion + math
-
-No loops needed
+Recursive substring decomposition.
 
 Skill trained
 
-Recursive pattern deduction
+Recursive restructuring
+
+Divide and rebuild
+
+🔟 Count and Say — (38)
+
+Example
+
+1
+11
+21
+1211
+111221
+
+Each step depends on the previous recursive result.
+
+Skill trained
+
+Recursion chain dependency
+
+⚠️ Forces you to trust recursive returns.
