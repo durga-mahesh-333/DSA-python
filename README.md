@@ -5,8 +5,10 @@ This Repository is to track my learning of DSA in python and its different solut
 ### Problems completed
 - *Fibonacci Number (leet code 509)*
 - *Reverse String (leet code 344)*
+- *Reduce Number Of Steps (leet code 1342)*
 - *Power of Two (leet code 231)*
 - *Sum of Digits (leet code 258 – Add Digits)*
+- *K-th Symbol in Grammar — (779)*
 
 ## <ins> BackTracking Problems </ins>
 ### Problems completed
@@ -60,48 +62,7 @@ This Repository is to track my learning of DSA in python and its different solut
 
 🟡 MEDIUM – “Your brain starts bending”
 
-Focus
 
-Multiple recursive calls
-
-Divide problem into smaller parts
-
-Understanding recursion tree
-
-1️⃣ Pow(x, n) — (50)
-
-Why it’s good
-
-Classic divide & conquer recursion problem.
-
-Naive recursion → O(n)
-Optimized recursion → O(log n)
-
-Skill trained
-
-Splitting recursion
-
-Reducing exponent by half
-
-Mathematical recursion thinking
-
-⚠️ Teaches fast exponentiation.
-
-2️⃣ K-th Symbol in Grammar — (779)
-
-Why it’s good
-
-One of the most elegant recursion problems on LeetCode.
-
-The answer depends on parent row.
-
-Skill trained
-
-Recursive pattern recognition
-
-Parent → child reasoning
-
-🔥 Many top coders love this problem.
 
 3️⃣ Different Ways to Add Parentheses — (241)
 
