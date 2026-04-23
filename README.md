@@ -8,7 +8,8 @@ This Repository is to track my learning of DSA in python and its different solut
 - *Reduce Number Of Steps (leet code 1342)*
 - *Power of Two (leet code 231)*
 - *Sum of Digits (leet code 258 – Add Digits)*
-- *K-th Symbol in Grammar — (779)*
+- *K-th Symbol in Grammar — (leet code 779)*
+- *Climbing Stairs - (leet code 70)*
 
 ## <ins> BackTracking Problems </ins>
 ### Problems completed
