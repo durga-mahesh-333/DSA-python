@@ -10,6 +10,7 @@ This Repository is to track my learning of DSA in python and its different solut
 - *Sum of Digits (leet code 258 – Add Digits)*
 - *K-th Symbol in Grammar — (leet code 779)*
 - *Climbing Stairs - (leet code 70)*
+- *Integer Replacement - (leet code 397)*
 
 ## <ins> BackTracking Problems </ins>
 ### Problems completed

@@ -1,16 +1,23 @@
 def integerReplacement( n: int) -> int:
-    if n==1 or n==0 : return 0
-    def helper_bin(num,num_of_oper,loop_count):
-        if num==1:
+    def helper_bin(num,loop_count):
+        if num==1 or num==0:
             return loop_count   
-        bin_val=num%2
-        num//=2
-        if bin_val==1: num+=1
-        return helper_bin(num,num_of_oper,loop_count+1)
+        if num==2:
+            return loop_count+1
+        if num==3:
+            return loop_count+2 
+        if num%2==0:
+            num//=2
+        else:
+            if ((num-1)//2)%2==0:
+                num-=1
+            elif ((num+1)//2)%2==0:
+                num+=1
+        return helper_bin(num,loop_count+1)
     
-    return helper_bin(n,0,0) + n%2
+    return helper_bin(n,0) 
 
-print(integerReplacement(1))
+print(integerReplacement(7 ))
 
 
 
