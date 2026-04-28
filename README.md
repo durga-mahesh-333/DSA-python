@@ -11,6 +11,9 @@ This Repository is to track my learning of DSA in python and its different solut
 - *K-th Symbol in Grammar — (leet code 779)*
 - *Climbing Stairs - (leet code 70)*
 - *Integer Replacement - (leet code 397)*
+- *Ugly Number - (leet code 263)*
+- *Power of Three - (leet code 326)*
+
 
 ## <ins> BackTracking Problems </ins>
 ### Problems completed
