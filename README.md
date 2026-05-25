@@ -13,7 +13,9 @@ This Repository is to track my learning of DSA in python and its different solut
 - *Integer Replacement - (leet code 397)*
 - *Ugly Number - (leet code 263)*
 - *Power of Three - (leet code 326)*
-
+- *Elimination game (Last remaining) - (leet code 390)*
+- *Power of Three - (leet code 326)*s
+- *Find the winner - (leet code 1823)*
 
 ## <ins> BackTracking Problems </ins>
 ### Problems completed
