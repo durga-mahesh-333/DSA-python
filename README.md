@@ -3,19 +3,20 @@ This Repository is to track my learning of DSA in python and its different solut
 
 ## <ins> Recursion Problems </ins>
 ### Problems completed
-- *Fibonacci Number (leet code 509)*
-- *Reverse String (leet code 344)*
-- *Reduce Number Of Steps (leet code 1342)*
-- *Power of Two (leet code 231)*
-- *Sum of Digits (leet code 258 – Add Digits)*
-- *K-th Symbol in Grammar — (leet code 779)*
-- *Climbing Stairs - (leet code 70)*
-- *Integer Replacement - (leet code 397)*
-- *Ugly Number - (leet code 263)*
-- *Power of Three - (leet code 326)*
-- *Elimination game (Last remaining) - (leet code 390)*
-- *Power of Three - (leet code 326)*s
-- *Find the winner - (leet code 1823)*
+- *Fibonacci Number (leetcode 509)*
+- *Reverse String (leetcode 344)*
+- *Reduce Number Of Steps (leetcode 1342)*
+- *Power of Two (leetcode 231)*
+- *Sum of Digits (leetcode 258 – Add Digits)*
+- *K-th Symbol in Grammar — (leetcode 779)*
+- *Climbing Stairs - (leetcode 70)*
+- *Integer Replacement - (leetcode 397)*
+- *Ugly Number - (leetcode 263)*
+- *Power of Three - (leetcode 326)*
+- *Elimination game (Last remaining) - (leetcode 390)*
+- *Power of Three - (leetcode 326)*s
+- *Find the winner - (leetcode 1823)*
+- *Check if Number is a Sum of Powers of Three - (leetcode 1780)*
 
 ## <ins> BackTracking Problems </ins>
 ### Problems completed
