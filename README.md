@@ -14,10 +14,11 @@ This Repository is to track my learning of DSA in python and its different solut
 - *Ugly Number - (leetcode 263)*
 - *Power of Three - (leetcode 326)*
 - *Elimination game (Last remaining) - (leetcode 390)*
-- *Power of Three - (leetcode 326)*s
+- *Power of Three - (leetcode 326)*
 - *Find the winner - (leetcode 1823)*
 - *Check if Number is a Sum of Powers of Three - (leetcode 1780)*
 - *Count and Say - (leetcode 38)*
+- *Nth digit - (leetcode 400)*
 
 ## <ins> BackTracking Problems </ins>
 ### Problems completed
