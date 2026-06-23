@@ -59,16 +59,13 @@ the problem arised with larger number more than 10K
 
 def countGoodNumbers(n: int) -> int:
 
-    init_val=2
 
-    def helper(expo, req_n):
-        if expo==n:
-            return expo
-        if expo>req_n : 
-            return helper(expo//2,req_n - (expo//2))
-        expo*=expo
-        return helper(expo,n)
-    return helper(init_val,n)
+    def helper(expo, base):
+        if expo == 1:
+            return 1
+        updat_val=helper(expo//2,base)
+        return updat_val+updat_val if expo%2==0 else updat_val+updat_val+1
+    return helper(n,2)
 
 
 print(countGoodNumbers(255)) 
