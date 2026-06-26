@@ -19,6 +19,7 @@ This Repository is to track my learning of DSA in python and its different solut
 - *Check if Number is a Sum of Powers of Three - (leetcode 1780)*
 - *Count and Say - (leetcode 38)*
 - *Nth digit - (leetcode 400)*
+- *Count Good Numbers - (leetcode 1922)*
 
 ## <ins> BackTracking Problems </ins>
 ### Problems completed
